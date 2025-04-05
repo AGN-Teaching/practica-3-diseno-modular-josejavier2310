@@ -6,7 +6,9 @@ import analisis_texto as at
 
 def indice_legibilidad_VG(texto):
     """Calcula y devuelve el índice de Velázquez Gaytán del texto de entrada."""
-    oraciones = contar_oraciones(texto) palabras = contar_palabras(texto) silabas = contar_silabas(texto)
+    oraciones = contar_oraciones(texto)
+    palabras = contar_palabras(texto)
+    silabas = contar_silabas(texto)
 
 if palabras == 0:
     return oraciones, palabras, silabas, 0
