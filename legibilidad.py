@@ -17,4 +17,13 @@ indice = (206.84 - 0.85 * (silabas / palabras) - 1.3 * (palabras / oraciones)) i
 
 def nivel_legibilidad_VG(indice):
     """Decide y devuelve el nivel de legibilidad de un texto de acuerdo con el índice de Velázquez Gaytán."""
-if indice >= 80: return "Muy fácil" elif indice >= 60: return "Fácil" elif indice >= 40: return "Intermedio" elif indice >= 20: return "Difícil" else: return "Muy difícil"
+if indice >= 80: 
+    return "Muy fácil" 
+elif indice >= 60: 
+    return "Fácil" 
+elif indice >= 40: 
+    return "Intermedio" 
+elif indice >= 20: 
+    return "Difícil" 
+else: 
+    return "Muy difícil"
