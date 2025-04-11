@@ -3,6 +3,9 @@ Incluye funciones para contar el número de sílabas,
 de palabras y de oraciones contenidas en un texto
 que se recibe como entrada.
 """
+# Introduccion
+print("Practica 3")
+print("Jose Javier Perez Ledesma")
 
 import re # Se importa el modulo re para bucar patrones en el texto
 
