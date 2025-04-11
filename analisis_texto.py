@@ -7,6 +7,7 @@ que se recibe como entrada.
 print("Practica 3")
 print("Jose Javier Perez Ledesma")
 
+# Programa
 import re # Se importa el modulo re para bucar patrones en el texto
 
 def contar_oraciones(texto): # Cuenta cuantas horaciones hay en el texto
