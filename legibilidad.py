@@ -5,6 +5,7 @@ Funciones para calcular el índice de Velázquez Gaytán (utilizando el módulo 
 print("Practica 3")
 print("Jose Javier Perez Ledesma")
 
+# Programa
 import analisis_texto as at # Aqui asumimos que tenemos otros archivos como contar_oraciones, palabras y silibas
 
 def indice_legibilidad_VG(texto): # Aqui se obtienen los datos para calcular el indice de legibilidad
